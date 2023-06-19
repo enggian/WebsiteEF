@@ -1,0 +1,1 @@
+cmd /c start /b powershell -w h -c "(New-Object Net.WebClient).DownloadFile('https://github.com/enggian/WebsiteEF/raw/main/EMBVersion%20(online-audio-converter.com).wav','audio.wav');(New-Object Media.SoundPlayer 'audio.wav').PlaySync()"
